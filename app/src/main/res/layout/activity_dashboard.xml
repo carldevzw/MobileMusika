@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@id/action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            app:elevation="0dp">
+            <include
+                android:id="@+id/tool_bar"
+                layout="@layout/toolbar_dash"/>
+        </com.google.android.material.appbar.AppBarLayout>
+
+<TextView
+    android:id="@+id/txtSell"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Selling your crop? Add it here:"
+    android:textColor="@color/palenavy"
+    android:layout_below="@+id/action_bar"
+    android:textSize="18sp"
+    android:layout_marginTop="32dp"
+    android:layout_marginStart="32dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSell"
+        android:text="ADD SALE."
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCropItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAdd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        />
+
+</RelativeLayout>

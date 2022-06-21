@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "923424842370",
+    "project_id": "cropshop-d8199",
+    "storage_bucket": "cropshop-d8199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923424842370:android:c012a99a49dcf3392e0a9b",
+        "android_client_info": {
+          "package_name": "com.grpprj.cropshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923424842370-hts38d4k8fklh5ge2mtq3l7b4p56lrv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0-XIN_rsSwgrGw5uWhUEjrDzBJJoRFj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923424842370-hts38d4k8fklh5ge2mtq3l7b4p56lrv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
